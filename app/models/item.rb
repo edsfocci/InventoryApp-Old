@@ -1,5 +1,13 @@
 class Item < ActiveRecord::Base
+  # Associations
   belongs_to :location
+
+  # Validations
+  validates :name, presence: true
+
+  # Includes
+  acts_as_taggable
+
 end
 
 # == Schema Information

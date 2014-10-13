@@ -5,6 +5,7 @@
     <%= f.input :name %>
     <%= f.input :description %>
     <%= f.input :location_id, collection: Location.all, label_method: :name %>
+    <%= f.input :tag_list %>
   </div>
 
   <div class="form-actions">

@@ -15,5 +15,7 @@
   <%= @item.location.name if @item.location %>
 </p>
 
+<p>Tags: <%= @item.tag_list %></p>
+
 <%= link_to 'Edit', edit_item_path(@item) %> |
 <%= link_to 'Back', items_path %>
