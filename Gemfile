@@ -39,6 +39,7 @@ gem 'spring',        group: :development
 
 gem 'simple_form'
 gem 'acts-as-taggable-on', '~> 3.4'
+gem 'devise'
 
 group :development do
   gem 'pry'
